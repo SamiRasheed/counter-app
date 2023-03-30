@@ -20,9 +20,9 @@ export default function Card(props) {
     <div className="card-body">
     <div className="container">
         <p>{count}</p>
-        <button className="btn btn-danger" onClick={increment}>+</button>
-        <button className="btn btn-danger" onClick={reset}>Reset</button>
         <button className="btn btn-danger" onClick={decrement}>-</button>
+        <button className="btn btn-danger" onClick={reset}>Reset</button>
+        <button className="btn btn-danger" onClick={increment}>+</button>
     </div>
     </div>
     </div>
